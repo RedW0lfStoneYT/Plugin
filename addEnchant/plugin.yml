@@ -1,0 +1,10 @@
+name: addEnchant
+author: RedW0lfStoneYT
+main: me.redw0lfstone.addEnchant.main
+version: 0.7
+commands: 
+   addEnchant:
+      usage: /<command> ENCHANT LEVEL
+   addSilk:
+      usage: /<command>
+   

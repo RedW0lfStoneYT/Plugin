@@ -1,0 +1,21 @@
+# Add Silk
+# Made by RedW0lfStoneYT
+# version 1.2
+
+
+# Placeholders https://sourceb.in/715e36b0e5.yml
+sound: "LEVEL_UP"          
+errorSound: "VILLAGER_NO"  
+# List of sounds https://sourceb.in/13aee05b01.yml  Sounds only wonk on server versions 1.8 - 1.8.9 because of API changes
+price: 1000000
+messages:
+   no-perms: "&cYou do not have the correct permissions to use this command" # %perm% placeholder coming soon
+   success: "&a%name%, You have successfully enchanted %item_name% with Silk touch \n&c&l-$%price% \n&a&l$%bal%"
+   no-funds: "&c&lYou need to have $%price% or more in order to do this"
+   wrong-item: "&cThis only works on Diamond Pickaxes" 
+   enchanted: "&cThis item is already enchanted"
+   reload: "&aConfig.yml has been reloaded" # only %name% works for this and %name only works when players do the command not when console does it
+   noReload: "&cThe config failed to reload"
+permissions:
+   reload: "addSilk.reload"
+   addsilk: "addSilk.add"

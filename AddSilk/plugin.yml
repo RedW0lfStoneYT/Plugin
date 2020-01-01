@@ -1,0 +1,9 @@
+name: addSilk
+author: RedW0lfStoneYT
+version: 1.2
+main: me.addsilk.main
+
+commands:
+   addSilk:
+      usage: /<command>
+      description: enchants with Silk

@@ -1,0 +1,5 @@
+name: fireballBlockDamageEditor
+main: me.redw0lfstone.fireball.main
+version: 0.1
+author: RedW0lfStoneYT
+softdepend: [SilkSpawners]
