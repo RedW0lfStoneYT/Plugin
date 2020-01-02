@@ -52,9 +52,6 @@ public class main extends JavaPlugin implements Listener {
 	public void onExplode(EntityExplodeEvent event) {
 		EntityType entType = event.getEntityType();
 		Location loc = event.getEntity().getLocation();
-//		int x = loc.getBlockX(),
-//			y = loc.getBlockY(),
-//			z = loc.getBlockZ();
 		if (entType.equals(EntityType.FIREBALL)) {
 			for (int x = loc.getBlockX() - 1; x <= loc.getBlockX() + 1; x++) {
 				for (int y = loc.getBlockY() - 1; y <= loc.getBlockY() + 1; y++) {
@@ -67,12 +64,7 @@ public class main extends JavaPlugin implements Listener {
 							ConfigurationSection blockList = breakable.getConfigurationSection(blocks);
 //							Block item = 
 							if (b.getTypeId() == blockList.getInt("type")) {
-//								System.out.println(blockList.getString("type"));
 
-								
-//								System.out.println(type);
-//								ItemStack spawn = new ItemStack(Material.MOB_SPAWNER, type);
-//								Entity spawner = b.getWorld().spawnEntity(bLoc, EntityType.MINECART_MOB_SPAWNER);
 								if (b.getTypeId() == 52) {
 									short type = su.getSpawnerEntityID(b);
 									String name = ChatColor.translateAlternateColorCodes('&', "&e%name% &fSpawner");
@@ -81,14 +73,6 @@ public class main extends JavaPlugin implements Listener {
 									b.getWorld().dropItemNaturally(b.getLocation(),
 											su.newSpawnerItem(type, name, 1, false));
 								}
-
-//								b.getWorld().spawnEntity(bLoc, spawn);
-//								su.getCreatureName(type)
-//								World world = b.getWorld();
-//								ItemMeta sMeta = spawn.getItemMeta();
-//								sMeta.setDisplayName(ChatColor.translateAlternateColorCodes('&', "&eCow &fSpawner"));
-//								spawn.setItemMeta(sMeta);
-//								world.dropItem(bLoc, spawn);
 
 								b.breakNaturally();
 //								b.setType(Material.STONE);
