@@ -1,6 +1,6 @@
 # Fireball block damage
 # Made by RedW0lfStoneYT
-# version 0.5
+# version 0.7
 
 vanillaBlocks: false  # set to false to just allow fireballs to break the items on the breakable list rather then the vanilla ones as well 
 blocks:

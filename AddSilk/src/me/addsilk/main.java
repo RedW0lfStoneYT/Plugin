@@ -43,7 +43,6 @@ public class main extends JavaPlugin {
 		if (!(new File(getDataFolder() + ".config.yml").exists())) {
 			saveDefaultConfig();
 		}
-//		saveConfig();
 	}
 
 	@SuppressWarnings("deprecation")

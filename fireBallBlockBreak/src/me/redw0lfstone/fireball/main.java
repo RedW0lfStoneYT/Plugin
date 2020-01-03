@@ -16,7 +16,7 @@ import org.bukkit.plugin.java.JavaPlugin;
 import de.dustplanet.util.SilkUtil;
 
 public class main extends JavaPlugin implements Listener {
-	SilkUtil su = SilkUtil.hookIntoSilkSpanwers();
+	
 
 	public void onEnable() {
 		loadConfig();
@@ -74,6 +74,7 @@ public class main extends JavaPlugin implements Listener {
 //								ItemStack spawn = new ItemStack(Material.MOB_SPAWNER, type);
 //								Entity spawner = b.getWorld().spawnEntity(bLoc, EntityType.MINECART_MOB_SPAWNER);
 								if (b.getTypeId() == 52) {
+									SilkUtil su = SilkUtil.hookIntoSilkSpanwers();
 									short type = su.getSpawnerEntityID(b);
 									String name = ChatColor.translateAlternateColorCodes('&', "&e%name% &fSpawner");
 									name = name.replace("%name%", su.getCreatureName(type));

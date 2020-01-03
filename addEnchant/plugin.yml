@@ -1,10 +1,11 @@
 name: addEnchant
 author: RedW0lfStoneYT
 main: me.redw0lfstone.addEnchant.main
-version: 0.7
+version: 0.8
+depend: [Vault, Essentials]
 commands: 
    addEnchant:
       usage: /<command> ENCHANT LEVEL
-   addSilk:
-      usage: /<command>
+   buyEnchant:
+      usage: /<command> ENCHANT LEVEL
    

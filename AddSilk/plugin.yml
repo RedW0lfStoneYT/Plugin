@@ -2,7 +2,7 @@ name: addSilk
 author: RedW0lfStoneYT
 version: 1.2
 main: me.addsilk.main
-
+depend: [Vault, Essentials]
 commands:
    addSilk:
       usage: /<command>

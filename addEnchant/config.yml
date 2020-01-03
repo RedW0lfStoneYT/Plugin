@@ -1,0 +1,371 @@
+# addEnchant
+# Made by RedW0lfStoneYT
+# version 0.8
+# Commands and permissions:
+#   +----------------------+----------------------+
+#   |  /addEnchant         |  addenchant.enchant  |
+#   |----------------------+----------------------|
+#   |  /buyEnchant         |  addenchant.buy      |
+#   |----------------------+----------------------|
+#   |  /addEnchant reload  |  addenchant.reload   |
+#   +----------------------+----------------------+
+#   
+#   If you have any issues please contact me on my support discord https://discord.gg/T3v32zV
+
+# Item List https://tinyurl.com/1-8-8-ItemList
+enchants:             # command effected by this /buyenchant - addenchant.buy
+   aquaaffinity:      # Do not edit the names or issues will be caused
+      buyable: true   # if false players will not be able to do /buyEnchant aquaAffinity 
+      max: 10          # Sets the max level of the enchant
+      enchantables:   # All the items that can be enchanted with this enchant
+         - DIAMOND_HELMET # Diamond Helmet
+         - GOLD_HELMET    # Gold Helmet
+         - iron_helmet    # Iron Helmet
+         - leather_helmet # Leather Helmet
+      cost: 1000      # price per level
+   baneofarthropods:
+      buyable: true
+      max: 10 
+      enchantables:
+         - Diamond_Sword
+         - Gold_Sword
+         - Iron_Sword
+         - Stone_Sword
+         - WOOD_SWORD 
+      cost: 1000
+   blastprotection:
+      buyable: true
+      max: 10 
+      enchantables:   
+         - DIAMOND_helmet
+         - DIAMOND_Chestplate
+         - DIAMOND_Leggings
+         - DIAMOND_boots
+         - gold_helmet
+         - gold_Chestplate
+         - gold_leggings
+         - gold_boots
+         - iron_helmet
+         - iron_chestplate
+         - iron_leggings
+         - iron_boots
+         - leather_helmet
+         - leather_chestplate
+         - leather_leggings
+         - leather_boots
+      cost: 1000
+   depthstrider:
+      buyable: true
+      max: 10 
+      enchantables:
+         - diamond_boots
+         - gold_boots
+         - iron_boots
+         - leather_boots
+      cost: 1000
+   efficiency:
+      buyable: true
+      max: 10 
+      enchantables:
+         - diamond_axe
+         - diamond_pickaxe
+         - diamond_spade
+         - gold_axe
+         - gold_pickaxe
+         - gold_spade
+         - iron_axe
+         - iron_pickaxe
+         - iron_spade
+         - stone_axe
+         - stone_pickaxe
+         - stone_spade
+         - wood_axe
+         - wood_pickaxe
+         - wood_spade
+      cost: 1000
+   featherfalling:
+      buyable: true
+      max: 10 
+      enchantables:
+         - diamond_boots
+         - gold_boots
+         - iron_boots
+         - leather_boots
+      cost: 1000
+   fireaspect:
+      buyable: true
+      max: 10 
+      enchantables:
+         - diamond_sword
+         - diamond_axe
+         - gold_sword
+         - gold_axe
+         - iron_sword
+         - iron_axe
+         - stone_sword
+         - stone_axe
+         - wood_sword
+         - wood_axe
+      cost: 1000
+   fireprotection:
+      buyable: true
+      max: 10 
+      enchantables:
+         - DIAMOND_helmet
+         - DIAMOND_Chestplate
+         - DIAMOND_Leggings
+         - DIAMOND_boots
+         - gold_helmet
+         - gold_Chestplate
+         - gold_leggings
+         - gold_boots
+         - iron_helmet
+         - iron_chestplate
+         - iron_leggings
+         - iron_boots
+         - leather_helmet
+         - leather_chestplate
+         - leather_leggings
+         - leather_boots
+      cost: 1000
+   flame:
+      buyable: true
+      max: 10 
+      enchantables:
+         - BOW
+      cost: 1000
+   fortune:
+      buyable: true
+      max: 10 
+      enchantables:
+         - diamond_axe
+         - diamond_pickaxe
+         - diamond_spade
+         - gold_axe
+         - gold_pickaxe
+         - gold_spade
+         - iron_axe
+         - iron_pickaxe
+         - iron_spade
+         - stone_axe
+         - stone_pickaxe
+         - stone_spade
+         - wood_axe
+         - wood_pickaxe
+         - wood_spade
+      cost: 1000
+   infinity:
+      buyable: true
+      max: 10 
+      enchantables:
+         - bow
+      cost: 1000
+   looting:
+      buyable: true
+      max: 10 
+      enchantables:
+         - diamond_sword
+         - diamond_axe
+         - gold_sword
+         - gold_axe
+         - iron_sword
+         - iron_axe
+         - stone_sword
+         - stone_axe
+         - wood_sword
+         - wood_axe
+      cost: 1000
+   luckofthesea:
+      buyable: true
+      max: 10 
+      enchantables:
+         - fishing_rod
+      cost: 1000
+   lure:
+      buyable: true
+      max: 10 
+      enchantables:
+         - fishing_rod
+      cost: 1000
+   power:
+      buyable: true
+      max: 10 
+      enchantables:
+         - bow
+      cost: 1000
+   projectileprotection:
+      buyable: true
+      max: 10 
+      enchantables:
+         - DIAMOND_helmet
+         - DIAMOND_Chestplate
+         - DIAMOND_Leggings
+         - DIAMOND_boots
+         - gold_helmet
+         - gold_Chestplate
+         - gold_leggings
+         - gold_boots
+         - iron_helmet
+         - iron_chestplate
+         - iron_leggings
+         - iron_boots
+         - leather_helmet
+         - leather_chestplate
+         - leather_leggings
+         - leather_boots
+      cost: 1000
+   protection:
+      buyable: true
+      max: 10 
+      enchantables: 
+         - DIAMOND_helmet
+         - DIAMOND_Chestplate
+         - DIAMOND_Leggings
+         - DIAMOND_boots
+         - gold_helmet
+         - gold_Chestplate
+         - gold_leggings
+         - gold_boots
+         - iron_helmet
+         - iron_chestplate
+         - iron_leggings
+         - iron_boots
+         - leather_helmet
+         - leather_chestplate
+         - leather_leggings
+         - leather_boots
+      cost: 1000
+   punch:
+      buyable: true
+      max: 10 
+      enchantables:
+         - bow
+      cost: 1000
+   respiration:
+      buyable: true
+      max: 10 
+      enchantables:
+         - DIAMOND_HELMET 
+         - GOLD_HELMET    
+         - iron_helmet    
+         - leather_helmet
+      cost: 1000
+   sharpness:
+      buyable: true
+      max: 10 
+      enchantables:
+         - diamond_sword
+         - diamond_axe
+         - gold_sword
+         - gold_axe
+         - iron_sword
+         - iron_axe
+         - stone_sword
+         - stone_axe
+         - wood_sword
+         - wood_axe
+      cost: 1000
+   silktouch:
+      buyable: true
+      max: 10 
+      enchantables:
+         - diamond_axe
+         - diamond_pickaxe
+         - diamond_spade
+         - gold_axe
+         - gold_pickaxe
+         - gold_spade
+         - iron_axe
+         - iron_pickaxe
+         - iron_spade
+         - stone_axe
+         - stone_pickaxe
+         - stone_spade
+         - wood_axe
+         - wood_pickaxe
+         - wood_spade
+      cost: 1000
+   smite:
+      buyable: true
+      max: 10 
+      enchantables:
+         - diamond_sword
+         - diamond_axe
+         - gold_sword
+         - gold_axe
+         - iron_sword
+         - iron_axe
+         - stone_sword
+         - stone_axe
+         - wood_sword
+         - wood_axe
+      cost: 1000
+   thorns:
+      buyable: true
+      max: 10 
+      enchantables:
+         - DIAMOND_helmet
+         - DIAMOND_Chestplate
+         - DIAMOND_Leggings
+         - DIAMOND_boots
+         - gold_helmet
+         - gold_Chestplate
+         - gold_leggings
+         - gold_boots
+         - iron_helmet
+         - iron_chestplate
+         - iron_leggings
+         - iron_boots
+         - leather_helmet
+         - leather_chestplate
+         - leather_leggings
+         - leather_boots
+      cost: 1000
+   unbreaking:
+      buyable: true
+      max: 10 
+      enchantables:
+         - DIAMOND_helmet
+         - DIAMOND_Chestplate
+         - DIAMOND_Leggings
+         - DIAMOND_boots
+         - gold_helmet
+         - gold_Chestplate
+         - gold_leggings
+         - gold_boots
+         - iron_helmet
+         - iron_chestplate
+         - iron_leggings
+         - iron_boots
+         - leather_helmet
+         - leather_chestplate
+         - leather_leggings
+         - leather_boots
+         - diamond_sword
+         - diamond_axe
+         - gold_sword
+         - gold_axe
+         - iron_sword
+         - iron_axe
+         - stone_sword
+         - stone_axe
+         - wood_sword
+         - wood_axe
+         - fishing_rod
+         - bow
+      cost: 1000
+   
+messages: # Placeholders https://tinyurl.com/RedW0lfStonePlaceHolders
+   noPermission: "&c %name%, You do not have permissions to do this command.\n If you think this is a bug please report it to the server dev/owner\n if they still have issues please contact me on my support discord https://discord.gg/T3v32zV"  # Message sent to the user when they do not have permission only supports %name%, %item_name%, %bal% & %uuid%
+   bookGiven: "&aYou have recieved 1x %enchant% %lvl%\n&c-$%price%\n$%bal%"  # Message displayed when the item in the players hand is null
+   enchantAdded: "&aYou have enchanted %item_name% with %enchant% %lvl%\n&c-$%price%\n$%bal%" # Message displayed when the item in the enchants an item
+   adminEnchant: "&aYou have successfully added %enchant% %lvl% to %item_name%"  # Message displayed when an OP/person with the permission addenchant.enchant
+   no-funds: "&cYou do not have enough money to buy this enchant.\nyou must have at least %price% you only have %bal%"  # Message displayed when the player doesn't have enough money
+   tooHigh: "&cNumber is too high please do a number between 1 & %max%"  # If the enchant lvl is too high this message will be sent to the user
+   enchantDisabled: "&cThis Enchantment is disabled"  # If buyable is set to false on the Enchant the user will get this message
+   console-msgItem: "&cUser: %name% with UUID: %uuid% &a Has enchanted %item_name% with %enchnat% %level% for %price%"  # Message logged to the console when a user buys an enchant
+   console-msgBook: "&cUser: %name% With UUID: %uuid% &aHas received enchantment 1x %enchant% %lvl% for %price%"  # Message logged to console when the user recieves a book
+   console-msgAddEnchant: "&cUser: %name% with UUID: %uuid% &a Has enchanted %item_name% with %enchnat% %level%"  # Message logged when an admin does /addEnchant
+   unEnchantable: "&cYou cannot enchant %item_name% with %enchant%"  # Message sent to the user if the Item is not on the Enchantable list 
+   
+   
